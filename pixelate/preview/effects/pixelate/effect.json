@@ -1,6 +1,6 @@
 {
 	"name" : "Pixelate",
-	"description" : "Lowers the resolution of the layer by a custom percentage.",
+	"description" : "Selectively lower the resolution of the image.",
 	"group" : "blur",
 	"passes" :
 	[
