@@ -44,14 +44,20 @@
 					"passes" : 
 					[
 						{
+							"combos" : 
+							{
+								"RESOLUTION" : 1
+							},
 							"constantshadervalues" : 
 							{
-								"Resolution Scale" : 
+								"resolution_scale" : 
 								{
+									"script" : "export function update(value) { return 1 / Math.pow(2, (Math.ceil((engine.runtime / 0.333) % 6))); }",
+									"user" : null,
 									"value" : 0.125
 								}
 							},
-							"id" : 283
+							"id" : 834
 						}
 					],
 					"visible" : true
